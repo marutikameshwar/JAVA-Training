@@ -22,8 +22,18 @@ public class first{
 		ref.show();
 		ref = new Child(90);
 		ref.show();
+		System.out.println("-------------");
+		Exceptions e = new Exceptions();
+		e.division(10,0);
+		try {
+			e.justfun();
+		} catch (ClassNotFoundException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		} catch (InterruptedException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
 
-
-		
 	}
 }
