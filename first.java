@@ -16,8 +16,14 @@ public class first{
 		Child c1 = new Child(100);
 		c1.show();
 		c1.addition();
+		System.out.println("______________");
+		Parent ref;
+		ref = new Parent();
+		ref.show();
+		ref = new Child(90);
+		ref.show();
 
-		
+
 		
 	}
 }
