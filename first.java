@@ -1,5 +1,7 @@
 
 import java.util.*;
+
+import Exceptions.Exceptions;
 public class first{
     public static void main(String[] args) {
 		// Scanner sc = new Scanner(System.in);

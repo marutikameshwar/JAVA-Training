@@ -1,3 +1,4 @@
+package Exceptions;
 public class Exceptions {
     public void division(int a,int b){
         try{
