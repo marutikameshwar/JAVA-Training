@@ -24,5 +24,25 @@ public class Employee {
     public Department getDepartment() {
         return department;
     }
+    @Override
+    public int hashCode() {
+        final int prime = 31;
+        int result = 1;
+        result = prime * result + eid;
+        return result;
+    }
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj)
+            return true;
+        if (obj == null)
+            return false;
+        if (getClass() != obj.getClass())
+            return false;
+        Employee other = (Employee) obj;
+        if (eid != other.eid)
+            return false;
+        return true;
+    }
 
 }
