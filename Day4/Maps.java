@@ -13,8 +13,8 @@ public class Maps {
    }
 
    public static void myHashMap(){
-        //Map<Integer,String> map = new HashMap<Integer,String>();
-        Map<Integer,String> map = new LinkedHashMap<Integer,String>();
+        Map<Integer,String> map = new HashMap<Integer,String>();
+        //Map<Integer,String> map = new LinkedHashMap<Integer,String>();
 
         map.put(101,"pune");
         map.put(102,"chennai");
