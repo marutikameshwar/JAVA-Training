@@ -42,6 +42,10 @@ public class Maps {
         for(Integer key : set){
             System.out.println(key+" "+treemap.get(key));
         }
+        Map<Employee,String> empTree = new TreeMap<Employee,String>();
+        
+
+
    }
     
 }
