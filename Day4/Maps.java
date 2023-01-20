@@ -5,6 +5,7 @@ import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Set;
+import java.util.TreeMap;
 
 public class Maps {
    public static void main(String []args){
@@ -31,15 +32,15 @@ public class Maps {
         }
    }
    public static void myTreeMap(){
-        Map<Integer,String> map = new LinkedHashMap<Integer,String>();
+        Map<Integer,String> treemap = new TreeMap<Integer,String>();
 
-        map.put(101,"pune");
-        map.put(102,"chennai");
-        map.put(103,"hyderabad");
-        map.put(102,"jabalpur");
-        Set<Integer> set = map.keySet();
+        treemap.put(101,"pune");
+        treemap.put(102,"chennai");
+        treemap.put(103,"hyderabad");
+        treemap.put(102,"jabalpur");
+        Set<Integer> set = treemap.keySet();
         for(Integer key : set){
-            System.out.println(key+" "+map.get(key));
+            System.out.println(key+" "+treemap.get(key));
         }
    }
     
