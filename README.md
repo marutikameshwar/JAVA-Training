@@ -1,7 +1,7 @@
 # JAVA-Training
 BAJAJ JAVA TRAINING
 
-JAVA NOTES
+JAVA NOTES  
 
 - [ ] Java object oriented , multithreaded platform independent, robust, portable, secure programming language
 - [ ] OOPS concept. -> Object, Class , Encapsulation, Abstraction ,Inheritance,Polymorphism, Late binding/ Dynamic binding
